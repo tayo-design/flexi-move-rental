@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f5f5f5;
+  color: #222;
+}
+
+/* HERO SECTION */
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+  background: #111;
+  color: white;
+  background-image: url(samsung-memory-us-6e3e_BluGoY-unsplash.jpg);
+  background-size: cover;
+  height: 60vh;
+
+  background-repeat: no-repeat;
+}
+
+
+.hero h1 {
+  font-size: 40px;
+  margin-bottom: 15px;
+  margin-top: 50px;
+  font-weight: bolder;
+}
+
+.hero p {
+  max-width: 800px;
+  margin: auto;
+  line-height: 1.6;
+  font-weight: bold;
+}
+
+/* SERVICES */
+.services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 40px;
+}
+
+.service-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.image-box {
+  height: 150px;
+  background: #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+
+/* WHY US */
+.why-us {
+  background: #fff;
+  padding: 40px;
+  text-align: center;
+  background-image: url(thuminhle1728-car-breakdown-7762068_1920.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  height: 60vh;
+}
+
+.why-us h2 {
+  margin-bottom: 20px;
+  
+}
+
+.why-us ul {
+  list-style: none;
+}
+
+.why-us li {
+  padding: 8px;
+  font-size: 18px;
+}
+
+/* FOOTER */
+.footer {
+  text-align: center;
+  padding: 40px;
+  background: #111;
+  color: white;
+  background-image: url(vitaly-gariev-Quq60SHWHio-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+   margin-top: 40px;
+  height: 60vh;
+}
+
+.footer h2 {
+  margin-bottom: 10px;
+  margin-top: 40px;
+}
+
+.service-card img{
+height: 20vh;
+width: 100%;
+
+
+
+}

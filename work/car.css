@@ -1,0 +1,644 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bye{
+    background-image: url(tyler-clemmensen-d1Jum1vVLew-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    animation-name: tayo;
+    animation-duration: 5s;
+
+}
+
+@keyframes tayo{
+
+    from{
+        transform: translatey(-200px);
+        opacity: 0.05;
+    }
+   
+    to{
+        transform: translatey(0);
+        opacity: 1;
+
+    }
+
+}
+
+.logo img{
+    width: 120px;
+    display: block;
+    
+}
+nav{
+background-color: white;
+width: 100%;
+height: 8vh;
+position: fixed;
+margin: auto;
+}
+
+ul{
+    display: flex;
+    
+    justify-content: end;
+    align-items: end;
+    list-style-type: none;
+}
+
+li{
+margin-inline: 3%;
+ margin-top: 1%;
+ font-size: 1.2rem;
+
+    
+
+}
+li:hover{
+    background-color: gray;
+}
+.gd input{
+border-radius: 20px;
+width: 50%;
+margin-top: 2%;
+padding-left: 5%;
+
+}
+
+.gd{
+    margin-top: 1%;
+    display: flex;
+    gap: 15%;
+}
+
+.gd i{
+    font-size: 1.7rem;
+    
+}
+
+a{
+    color: black;
+}
+
+.sad h1{
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    padding-top: 30vh;
+    letter-spacing: 0.3rem;
+}
+
+.happy{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 1rem;
+    max-width: 700px;
+    margin: auto;
+}
+
+@media (max-width: 768px){
+
+    .sad h1{
+        font-size: 2rem;
+        padding-top: 30vh;
+    }
+
+    .happy{
+        font-size: 0.9rem;
+        padding: 15px;
+    }
+}
+
+h2{
+margin-top: 2%;
+letter-spacing: 0.5rem;
+padding: 2%;
+font-weight: bolder;
+font-size: 2rem;
+
+}
+
+.cars{
+ width: 102%; 
+height: 67vh;  
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+/* gap: 5px; */
+padding: 1%;
+
+}
+
+.car1,.car2,.car3,.car4{
+border: 20px solid white; 
+
+}
+
+.car1{
+
+    background-image:url(pexels-lynxexotics-14445435.jpg) ;
+    background-size: cover;
+    
+    
+}
+
+.car2{
+background-image: url(pexels-egeardaphotos-2148533277-34611958.jpg);
+background-size: cover;
+
+}
+
+.car3{
+background-image: url(pexels-lynxexotics-3849553.jpg);
+background-size: cover;
+
+}
+
+.car4{
+background-image: url(pexels-rodrigo-chable-380091428-15094174.jpg);
+background-size: cover;
+
+}
+
+b{
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    padding-left: 4%;
+    padding-top: 5%;
+}
+
+.cars i{
+    display: flex;
+    font-size: 2rem;
+    width: 13%;
+    height: 6vh;
+    border-radius: 50%;
+   background-color: white;
+    padding: 1%;
+    margin-left:80%;
+    margin-top: 90%;
+    
+    
+}
+
+a :hover{
+   background-color: cornflowerblue; 
+}
+a{
+    text-decoration: none;
+}
+
+h3{
+letter-spacing: 0.5rem;
+padding: 2%;
+font-weight: bolder;
+font-size: 2rem;
+}
+
+.sharp{
+    display: grid;
+    width: 100%;
+    height: 35vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* gap: 3%; */
+    padding: 1%;
+    margin-left: 1%;
+    animation-name: tolani;
+    animation-duration: 5s ;
+    
+}
+
+@keyframes tolani {
+  0% {
+    transform: scale(0);
+  }
+  60% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.sharp1,.sharp2,.sharp3,.sharp4{
+box-shadow: 5px 15px 30px rgb(185, 184, 184);
+ border: 10px solid white;   
+}
+
+.sharp img{
+object-fit: contain;
+object-position: center;
+width: 100%;
+height: 35vh;
+
+}
+
+em{
+    font-size: 1.7rem;
+    font-weight: bolder;
+    padding: 5%;
+    
+}
+
+.gpa{
+    display: flex;
+    gap: 4rem;
+    justify-content: space-around;
+    font-size: 1.5rem;
+}
+
+.gpa a{
+    border-radius: 10px;
+    background-color: rgb(213, 208, 208);
+    width: 35%;
+    height: 4vh;
+    /* padding: 1%; */
+    text-align: center;
+}
+
+.gpa a:hover{
+    background-color: cornflowerblue;
+}
+
+.soap{
+    background-color: black;
+   min-height: 50vh;
+    height: auto;
+    margin-top: 10%;
+}
+
+.gap{
+    display: flex;
+    background-color: black;
+    
+    height: 20vh;
+    color: white;
+    /* justify-content: space-evenly; */
+}
+
+.bike{
+    display: flex;
+    gap: 10rem;
+    background-color: black;
+    flex-basis: 49%;
+}
+
+.gap3{
+    background-color: rgb(36, 35, 35);
+    width: 30%;
+    display: flex;
+    gap: 2rem;
+    font-size: 1.7rem;
+
+    justify-content: center;
+    align-items: center;
+}
+.gap1{
+    display: flex;
+    gap: 2rem;
+    font-size: 1.7rem;
+    margin-top: 5%;
+    justify-content: center;
+    align-items: center;
+    padding-left: 3%;
+    
+}
+.gap2{
+   display: flex;
+    gap: 2rem;
+    font-size: 1.7rem;
+    margin-top: 5%;
+    justify-content: center;
+    align-items: center;
+     
+}
+
+.gap4{
+display: flex;
+    gap: 2rem;
+    font-size: 1.7rem;
+    margin-top: 2%;
+    justify-content: center;
+    align-items: center;
+    padding-left: 3%;
+
+}
+
+.font{
+background-image: url(pexels-chris-f-38966-17900508.jpg);
+background-size: cover;
+background-position: center;
+height: 60vh;
+width: 100%;
+margin-top: 5%;
+}
+
+h6{
+color: white;
+font-size: 2rem;
+font-weight: bolder;
+padding-top: 10%;
+padding-left: 3%;
+}
+
+button{
+background-color: gray;
+color: white;
+width: 7%;
+height: 5vh;
+margin-left: 6%;
+margin-top: 2%;
+}
+
+.wood{
+    width: 14%;
+    height: 20vh;
+    background-color: rgb(104, 101, 101);
+    display: block;
+    margin-left: 80%;
+    margin-top: -10%;
+    text-align: center;
+    padding: 1%;
+    
+    
+    
+}
+
+h7{
+    color: white;
+    font-size: 2rem;
+}
+
+.mom{
+    width: 100%;
+    height: 50vh;
+   background-color: white;
+    
+}
+
+.dads{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+width: 100%;
+height: auto;
+gap: 7%;
+/* margin-top: 5%; */
+
+}
+
+.dad1, .dad2, .dad3, .dad4{
+
+/* border: 1px solid black; */
+text-align: center;
+padding-top: 5%;
+
+}
+
+h8{
+font-size: large;
+font-weight: bolder;
+
+}
+
+.dads ol{
+    list-style-type: none;
+    margin: 5%;
+    
+}
+
+/* ==========================
+TABLET RESPONSIVE
+========================== */
+
+@media (max-width: 1024px){
+
+    .sad h1{
+        font-size: 3rem;
+        padding-top: 35%;
+    }
+
+    .happy{
+        padding-left: 10%;
+        padding-top: 5%;
+        font-size: 0.9rem;
+    }
+
+    .cars{
+        grid-template-columns: 1fr 1fr;
+        height: auto;
+    }
+
+    .car1,.car2,.car3,.car4{
+        min-height: 300px;
+    }
+
+    .sharp{
+        grid-template-columns: 1fr 1fr;
+        height: auto;
+        gap: 20px;
+    }
+
+    .soap{
+        height: auto;
+    }
+
+    .gap{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .bike{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .gap3,
+    .gap4{
+        width: 100%;
+        padding: 20px;
+    }
+
+    .button{
+        width: 20%;
+    }
+
+    .wood{
+        width: 25%;
+        margin-left: 65%;
+    }
+
+    .dads{
+        grid-template-columns: 1fr 1fr;
+        height: auto;
+        gap: 20px;
+    }
+}
+
+
+/* ==========================
+MOBILE RESPONSIVE
+========================== */
+
+@media (max-width: 768px){
+
+    nav{
+        height: auto;
+        padding: 10px;
+        
+    }
+    
+
+    ul{
+        /* flex-direction: column; */
+        align-items: center;
+        justify-content: flex-end;
+        gap: 10px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    li{
+        margin: 0;
+        font-size: 1rem;
+        margin-inline: 0;
+    }
+
+    .bye{
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    .sad h1{
+        font-size: 2rem;
+        padding-top: 220px;
+        text-align: center;
+        padding-left: 0;
+        letter-spacing: 0.2rem;
+    }
+
+    .happy{
+        padding: 20px;
+        text-align: center;
+        font-size: 0.9rem;
+    }
+
+    h2,
+    h3{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .cars{
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+
+    .car1,
+    .car2,
+    .car3,
+    .car4{
+        min-height: 250px;
+    }
+
+    .cars i{
+        margin-top: 60%;
+        margin-left: 75%;
+        width: 50px;
+        height: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sharp{
+        grid-template-columns: 1fr;
+        height: auto;
+        gap: 25px;
+    }
+
+    .sharp img{
+        height: 250px;
+    }
+
+    .gpa{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding-bottom: 15px;
+    }
+
+    .gpa a{
+        width: 60%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .bike{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .gap{
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+    }
+
+    .gap1,
+    .gap2,
+    .gap3,
+    .gap4{
+        width: 100%;
+        padding: 20px;
+        font-size: 1.2rem;
+    }
+
+    .font{
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    h6{
+        font-size: 1.5rem;
+        text-align: center;
+        padding-left: 0;
+    }
+
+    button{
+        width: 40%;
+        height: 45px;
+        display: block;
+        margin: 20px auto;
+    }
+
+    .wood{
+        width: 40%;
+        height: auto;
+        margin: 20px auto;
+        padding: 20px;
+    }
+
+    h7{
+        font-size: 1.5rem;
+    }
+
+    .dads{
+        grid-template-columns: 1fr;
+        gap: 10px;
+        height: auto;
+    }
+
+    .mom{
+        height: auto;
+    }
+
+    input{
+        width: 90%;
+        padding: 10px;
+    }
+
+}
